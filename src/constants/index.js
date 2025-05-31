@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, C, figma, python, iitd, igdtuw } from "../assets/images";
+import { meta,  shopify, starbucks, tesla, } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    
+    
 } from "../assets/icons";
 
 export const skills = [
@@ -33,7 +35,7 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: C,
+        imageUrl: express,
         name: "C++",
         type: "Programming Language",
     },
@@ -54,12 +56,12 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: python,
+        imageUrl: mui,
         name: "Python",
         type: "Backend",
     },
     {
-        imageUrl: figma,
+        imageUrl: mui,
         name: "Figma",
         type: "Frontend",
     },
@@ -93,7 +95,7 @@ export const experiences = [
     {
         title: " Summer Intern",
         company_name: " Indira Gandhi Delhi Technical University for Women",
-        icon: igdtuw,
+        icon: starbucks,
         iconBg: "#accbe1",
         date: "June 2025 - Present",
         points: [
@@ -105,7 +107,7 @@ export const experiences = [
     {
         title: " STEM Mentorship Mentee",
         company_name: " Indian Institute of Technology, Delhi",
-        icon: iitd,
+        icon: tesla,
         iconBg: "#fbc3bc",
         date: "Feb 2023 - Nov 2023",
         points: [
@@ -121,7 +123,7 @@ export const experiences = [
 export const socialLinks = [
     {
         name: 'Resume',
-        iconUrl: arrow,
+        iconUrl: contact,
         link: 'https://drive.google.com/file/d/1mToeaOuuNGv2OLqyRERRe_FKMhprFuft/view?usp=sharing',
 
     },
@@ -132,7 +134,7 @@ export const socialLinks = [
     },
      {
         name: 'Leetcode',
-        iconURL: leetcode, 
+        iconURL: contact, 
         link: 'https://leetcode.com/akanksha1268/',
     },
     {
@@ -153,21 +155,21 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconURL: mirror,
+        iconURL: snapgram,
         theme: 'btn-back-red',
         name: ' Mirror - Web app',
         description: ' AI-powered web app to scan files (PDF, CSV, DOCX, etc.) for threats, anomalies, and risks; delivers explainable results and interactive visual reports for non-technical users.',
         link: 'https://github.com/singh-bhawana/Mirror-',
     },
     {
-        iconUrl: tuo,
+        iconUrl: snapgram,
         theme: 'btn-back-green',
         name: 'Tuo - Educational App',
         description: ' Mobile learning app that embeds YouTube content in a distraction-free interface with sequenced lessons, quizzes, progress tracking, and personalized content recommendations.',
         link: 'https://drive.google.com/file/d/1Z8leUwX58SJxYmOfXli34Hk4lN46ngk_/view?usp=sharing',
     },
     {
-        iconUrl: cardigan_logo,
+        iconUrl: snapgram,
         theme: 'btn-back-blue',
         name: ' Cardigan ',
         description: ' UI/UX prototype for a social platform connecting users with NGOs through secure blockchain-backed volunteering, donation tracking, credit-score incentives, and community-driven features.',

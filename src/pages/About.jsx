@@ -23,7 +23,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        Hi, I am an CSE Undergrad passionate about Full-Stack Development, 
+        Hi, I am a CSE Undergrad passionate about Full-Stack Development, 
         UI/UX Design, and Data Structures & Algorithms. I enjoy building scalable web applications with clean architecture, great user experience, and solid problem-solving at the core.
         </p>
       </div>
