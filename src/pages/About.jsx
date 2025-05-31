@@ -29,21 +29,25 @@ const About = () => {
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>Technical Skills</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
-          {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
-              <div className='btn-back rounded-xl' />
-              <div className='btn-front rounded-xl flex justify-center items-center'>
-                <img
-                  src={skill.imageUrl}
-                  alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain'
-                />
-              </div>
-            </div>
-          ))}
+     {skills.map((skill) => (
+  <div key={skill.name} className='flex flex-col items-center'>
+    <div className='block-container w-20 h-20'>
+      <div className='btn-back rounded-xl' />
+      <div className='btn-front rounded-xl flex justify-center items-center'>
+        <img
+          src={skill.imageUrl}
+          alt={skill.name}
+          className='w-1/2 h-1/2 object-contain'
+        />
+      </div>
+    </div>
+    <p className='mt-2 text-center text-white text-sm'>{skill.name}</p>
+  </div>
+))}
+
         </div>
       </div>
 
@@ -62,16 +66,8 @@ const About = () => {
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}
-                iconStyle={{ background: experience.iconBg }}
-                icon={
-                  <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={experience.icon}
-                      alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
-                    />
-                  </div>
-                }
+               
+                 iconStyle={{ background: experience.iconBg }}
                 contentStyle={{
                   borderBottom: "8px",
                   borderStyle: "solid",

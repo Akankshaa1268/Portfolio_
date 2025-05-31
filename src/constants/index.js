@@ -16,6 +16,7 @@ import {
     nextjs,
     nodejs,
     pricewise,
+    python,
     react,
     redux,
     sass,
@@ -24,6 +25,12 @@ import {
     tailwindcss,
     threads,
     typescript,
+    canva,
+    C,
+    vscode,
+    figma,
+    android,
+    
     
     
 } from "../assets/icons";
@@ -34,11 +41,7 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: express,
-        name: "C++",
-        type: "Programming Language",
-    },
+   
     
     {
         imageUrl: github,
@@ -56,16 +59,40 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mui,
+        imageUrl: python,
         name: "Python",
         type: "Backend",
     },
     {
-        imageUrl: mui,
+        imageUrl: figma,
         name: "Figma",
-        type: "Frontend",
+        type: "Other",
+    },
+    
+    {
+        imageUrl: vscode,
+        name: "VS code",
+        type: "Other",
+    },
+    
+    {
+        imageUrl: android,
+        name: "Android Studio",
+        type: "Other",
     },
   
+    
+    {
+        imageUrl: canva,
+        name: "Canva",
+        type: "Other",
+    },
+    
+    {
+        imageUrl: C,
+        name: "C++",
+        type: "Other",
+    },
     {
         imageUrl: nextjs,
         name: "Next.js",
@@ -95,8 +122,7 @@ export const experiences = [
     {
         title: " Summer Intern",
         company_name: " Indira Gandhi Delhi Technical University for Women",
-        icon: starbucks,
-        iconBg: "#accbe1",
+         iconBg: "#a2d2ff",
         date: "June 2025 - Present",
         points: [
         "Part of an 8-week internship organized by the Department of AI & DS, covering coursework in HTML/CSS, JavaScript, React.js with TypeScript, Node.js, Express.js, and MongoDB",
@@ -107,8 +133,7 @@ export const experiences = [
     {
         title: " STEM Mentorship Mentee",
         company_name: " Indian Institute of Technology, Delhi",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        iconBg: "#b7e4c7",
         date: "Feb 2023 - Nov 2023",
         points: [
             "Selected as 1 of 32 mentees for a year-long STEM program; explored emerging technologies like cryptography, network security, and drone tech via hands-on workshops and lectures.",
@@ -121,22 +146,13 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-    {
-        name: 'Resume',
-        iconUrl: contact,
-        link: 'https://drive.google.com/file/d/1mToeaOuuNGv2OLqyRERRe_FKMhprFuft/view?usp=sharing',
-
-    },
+  
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/akankshapal1268',
     },
-     {
-        name: 'Leetcode',
-        iconURL: contact, 
-        link: 'https://leetcode.com/akanksha1268/',
-    },
+     
     {
         name: 'GitHub',
         iconUrl: github,
@@ -175,7 +191,13 @@ export const projects = [
         description: ' UI/UX prototype for a social platform connecting users with NGOs through secure blockchain-backed volunteering, donation tracking, credit-score incentives, and community-driven features.',
         link: 'https://github.com/Akankshaa1268/Cardigan.git',
     },
-    
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-yellow',
+        name: ' RESUME',
+        description: 'View Resume -',
+        link: 'https://drive.google.com/file/d/1mToeaOuuNGv2OLqyRERRe_FKMhprFuft/view?usp=sharing' ,
+    },
   
 ];
  

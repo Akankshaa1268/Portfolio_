@@ -26,9 +26,20 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import python from './python.svg'
+import canva from './canva.svg'
+import C from './C.svg'
+import android from './android.svg'
+import figma from './figma.svg'
+import vscode from './vscode.svg'
 
 export {
     css,
+    figma,
+    vscode,
+    canva,
+    C,
+    android,
     express,
     git,
     github,
@@ -49,11 +60,13 @@ export {
     car,
     estate,
     pricewise,
+    python,
     snapgram,
     summiz,
     threads,
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    
 }
