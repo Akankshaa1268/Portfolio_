@@ -197,8 +197,8 @@ export const projects = [
         iconUrl: snapgram,
         theme: 'btn-back-yellow',
         name: ' RESUME',
-        description: 'View Resume -',
-        link: 'https://drive.google.com/file/d/1mToeaOuuNGv2OLqyRERRe_FKMhprFuft/view?usp=sharing' ,
+        description: 'Check Resume:',
+        link: 'https://drive.google.com/file/d/1uA9UMd9lFUPXR2NPjTuOfeiheWvSVoUm/view?usp=sharing' ,
     },
   
 ];
