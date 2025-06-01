@@ -3,7 +3,9 @@ import meta from './meta.png'
 import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
-import logo from './logo.svg'
+import logo3 from './logo3.svg'
+import igdtuw_logo from './igdtuw_logo.png'
+import iitdlogo from './iitdlogo.webp'
 
 
 
@@ -14,7 +16,9 @@ export {
     shopify,
     starbucks,
     tesla,
-    logo,
+    logo3,
+    igdtuw_logo,
+    iitdlogo,
   
    
 }

@@ -1,0 +1,18 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="64px" height="64px" viewBox="0 0 48.00 48.00" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff" stroke-width="1.968" transform="matrix(1, 0, 0, 1, 0, 0)">
+<g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(6.240000000000002,6.240000000000002), scale(0.74)">
+<rect x="0" y="0" width="48.00" height="48.00" rx="0" fill="#fafafa" strokewidth="0"/>
+</g>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.096"/>
+<g id="SVGRepo_iconCarrier">
+<defs>
+<style>.a{fill:none;stroke:#2173c0;stroke-linecap:round;stroke-linejoin:round;}</style>
+</defs>
+<path class="a" d="M5.5,19.6V40.5a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2V7.5a2,2,0,0,0-2-2H7.5a2,2,0,0,0-2,2V19.6"/>
+<path class="a" d="M25.7547,33.6191V14.3809h6.2982a6.461,6.461,0,0,1,0,12.922H25.7547"/>
+<line class="a" x1="9.5" y1="33.562" x2="15.8847" y2="14.3809"/>
+<line class="a" x1="22.0048" y1="33.6191" x2="15.8847" y2="14.3809"/>
+<line class="a" x1="19.9575" y1="27.1836" x2="11.6231" y2="27.1836"/>
+</g>
+</svg>

@@ -1,4 +1,4 @@
-import { meta,  shopify, starbucks, tesla, } from "../assets/images";
+import { meta,  shopify, starbucks, tesla, igdtuw_logo, iitdlogo } from "../assets/images";
 import {
     car,
     contact,
@@ -122,6 +122,7 @@ export const experiences = [
     {
         title: " Summer Intern",
         company_name: " Indira Gandhi Delhi Technical University for Women",
+        icon: igdtuw_logo,
          iconBg: "#a2d2ff",
         date: "June 2025 - Present",
         points: [
@@ -133,6 +134,7 @@ export const experiences = [
     {
         title: " STEM Mentorship Mentee",
         company_name: " Indian Institute of Technology, Delhi",
+        icon: iitdlogo,
         iconBg: "#b7e4c7",
         date: "Feb 2023 - Nov 2023",
         points: [
