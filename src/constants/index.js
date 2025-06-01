@@ -198,7 +198,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: ' RESUME',
         description: 'Check Resume:',
-        link: 'https://drive.google.com/file/d/1uA9UMd9lFUPXR2NPjTuOfeiheWvSVoUm/view?usp=sharing' ,
+        link: 'https://drive.google.com/file/d/12KZ1ABBImcOajoQZ_8JE6e_uvqu92ptn/view?usp=sharing' ,
     },
   
 ];
