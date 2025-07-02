@@ -193,13 +193,21 @@ export const projects = [
         description: ' UI/UX prototype for a social platform connecting users with NGOs through secure blockchain-backed volunteering, donation tracking, credit-score incentives, and community-driven features.',
         link: 'https://github.com/Akankshaa1268/Cardigan.git',
     },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-yellow',
-        name: ' RESUME',
-        description: 'Check Resume:',
-        link: 'https://drive.google.com/file/d/1LyTtXEcxKhhzmZ4bnRT0e3WnCftU8D-6/view?usp=sharing' ,
-    },
+   
   
 ];
- 
+ export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    title: "Resume",
+    external: true,
+    href: "/resume.pdf",
+  },
+];

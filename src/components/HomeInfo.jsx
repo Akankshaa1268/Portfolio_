@@ -52,7 +52,7 @@ const HomeInfo = ({ currentStage }) => {
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
+       Let's talk
         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </Link>
     </div>
