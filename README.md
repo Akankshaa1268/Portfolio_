@@ -4,9 +4,8 @@ This is my personal **3D interactive portfolio**, built to showcase my skills, p
 
 The portfolio features smooth animations, dynamic sections, and interactive 3D elements to create an immersive experience for visitors.
 
-##  Live Site
 
-🔗 [View My Portfolio](https://akankshapal.vercel.app/)
+
 
 ## 🛠️ Tech Stack
 
